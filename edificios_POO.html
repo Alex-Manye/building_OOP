@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title> 
+</head>
+<body>          
+    <label>Building information</label>     <br> 
+    <input type="text" name="name" id="name" placeholder="building name"></input>
+    <input type="text" name="area" id="area" placeholder="building area"></input>
+    <input type="text" name="floorNumber" id="floorNumber" placeholder="floor number"></input><br>
+    <button onClick="hotelCreate()">Crear Hotel</button> 
+    <button onClick="cineCreate()">Crear Cine</button> 
+    <button onClick="hospitalCreate()">Crear Hospital</button> <br> 
+    <label>Calcula el cost de neteja</label>     <br>  
+    <input type="text" name="name" id="name2" placeholder="building name"></input>
+    <button onClick="cleanBuilding">Cost mensual neteja</button> <br>
+    <label>Calcula el cost de vigilancia</label>     <br>  
+    <input type="text" name="name" id="name3" placeholder="building name"></input>   
+    <button onClick="securityCost()">Cost vigilants</button> <br>
+    
+
+
+<p id="demo"></p>
+<p id="demo2"></p>
+
+    <script src='edificios_POO.js' type='text/javascript'></script>
+</body>
+</html>
